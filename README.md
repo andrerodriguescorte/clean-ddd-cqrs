@@ -43,7 +43,7 @@ tests/
 
 Abaixo está o diagrama visual das dependências entre os projetos da solução:
 
-![Diagrama de Dependência](diagram.png)
+![Diagrama de Dependência](https://raw.githubusercontent.com/andrerodriguescorte/clean-ddd-cqrs/dev/docs/diagram.png)
 
 ---
 
