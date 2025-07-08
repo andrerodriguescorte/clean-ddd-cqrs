@@ -7,16 +7,16 @@ Projeto base moderno e escalável para desenvolvimento de MicroSaaS em .NET 8, c
 
 ## 📦 Tecnologias e Arquitetura Utilizadas
 
-- ✅ Clean Architecture
-- ✅ Domain-Driven Design (DDD)
-- ✅ CQRS com MediatR
-- ✅ Event Sourcing
-- ✅ RabbitMQ + Outbox Pattern
-- ✅ Polly para resiliência (retry, fallback, circuit breaker)
-- ✅ Serilog + Seq para logging estruturado
-- ✅ Testes automatizados (xUnit, Moq, Stryker.NET)
-- ✅ Docker + Docker Compose
-- ✅ Pronto para CI/CD
+- ✅ Clean Architecture  
+- ✅ Domain-Driven Design (DDD)  
+- ✅ CQRS com MediatR  
+- ✅ Event Sourcing  
+- ✅ RabbitMQ + Outbox Pattern  
+- ✅ Polly para resiliência (retry, fallback, circuit breaker)  
+- ✅ Serilog + Seq para logging estruturado  
+- ✅ Testes automatizados (xUnit, Moq, Stryker.NET)  
+- ✅ Docker + Docker Compose  
+- ✅ Pronto para CI/CD  
 
 ---
 
@@ -36,6 +36,14 @@ tests/
 ├── DotNet.MicroSaaS.CleanDDD.CQRS.IntegrationTests
 ├── DotNet.MicroSaaS.CleanDDD.CQRS.MutationTests
 ```
+
+---
+
+## 📊 Diagrama de Dependência
+
+Abaixo está o diagrama visual das dependências entre os projetos da solução:
+
+![Diagrama de Dependência](diagram.png)
 
 ---
 
@@ -66,6 +74,7 @@ dotnet test
 ```
 
 Testes de mutação (requer Stryker.NET):
+
 ```bash
 dotnet tool install -g dotnet-stryker
 dotnet stryker
@@ -75,25 +84,24 @@ dotnet stryker
 
 ## 🌐 Endpoints úteis
 
-- `/health` — Health Check
-- `/swagger` — Documentação interativa da API
+- `/health` — Health Check  
+- `/swagger` — Documentação interativa da API  
 
 ---
 
 ## 🤝 Contribuindo
 
-1. Fork o repositório
-2. Crie sua branch: `git checkout -b feature/minha-feature`
-3. Commit: `git commit -m 'Adiciona nova feature'`
-4. Push: `git push origin feature/minha-feature`
-5. Crie um Pull Request
+1. Fork o repositório  
+2. Crie sua branch: `git checkout -b feature/minha-feature`  
+3. Commit: `git commit -m 'Adiciona nova feature'`  
+4. Push: `git push origin feature/minha-feature`  
+5. Crie um Pull Request  
 
 ---
 
 ## 🧑‍💻 Autor
 
-**André Rodrigues Côrte**  
-CEO @ Fidelizar+  
+**André Rodrigues Côrte**    
 [LinkedIn](https://www.linkedin.com/in/andre-rodrigues-corte/)
 
 ---
@@ -101,4 +109,3 @@ CEO @ Fidelizar+
 ## 📝 Licença
 
 Distribuído sob licença MIT. Veja `LICENSE` para mais informações.
-

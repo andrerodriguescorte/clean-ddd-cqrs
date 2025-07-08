@@ -5,4 +5,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.0.4" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNet.MicroSaaS.CleanDDD.CQRS.Domain\DotNet.MicroSaaS.CleanDDD.CQRS.Domain.csproj" />
+    <ProjectReference Include="..\DotNet.MicroSaaS.CleanDDD.CQRS.Infrastructure\DotNet.MicroSaaS.CleanDDD.CQRS.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
